@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Tap Me
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div>
+  <p align="center">{{tapCounter}}</p>
+  </div>
+  <ion-buttons>
+ <button ion-button block (click)="buttonTapped()">Tap me!</button>
+ <button ion-button block (click)="reset()">Reset</button>
+ </ion-buttons>
+</ion-content>
